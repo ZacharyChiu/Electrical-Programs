@@ -12,7 +12,7 @@
 - **参考教程**  
 [CSDN-树莓派RASPBIAN系统安装个人经验教训](https://blog.csdn.net/piaoyangguohai1/article/details/79596859
 )  
-> [树莓派上安装tensorflow](http://www.360doc.com/content/19/0810/12/13145302_854037777.shtml)
+[树莓派上安装tensorflow](http://www.360doc.com/content/19/0810/12/13145302_854037777.shtml)
 
 - **Raspbian**
 > Raspbian是专门针对树莓派而优化的Linux系统。  
