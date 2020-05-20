@@ -9,6 +9,10 @@
 2. 4b功耗比3系大好几倍，若用电池供电，略显吃力。
 3. 若希望通过远程桌面控制树莓派，需安装带桌面的镜像（with desktop）
 #### 系统安装
+- **参考教程**
+[CSDN-树莓派RASPBIAN系统安装个人经验教训](https://blog.csdn.net/piaoyangguohai1/article/details/79596859
+)
+
 - **Raspbian**
 > Raspbian是专门针对树莓派而优化的Linux系统。  
 - **安装**
@@ -16,8 +20,9 @@
 > 1. SD卡格式化工具：`SDCardFormatter`
 > 2. 镜像烧录工具：`win32diskimager`
 > 3. SD卡
-> - ****
+- **流程**
 > 1. 获取镜像文件。（已上传至我的百度网盘）
+
 > 2. 
 ### 扩展板（传感器）
 #### 二哈识图（HuskyLens）
