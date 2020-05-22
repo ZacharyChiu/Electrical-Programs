@@ -10,9 +10,9 @@
 3. 若希望通过远程桌面控制树莓派，需安装带桌面的镜像（with desktop）
 #### 系统安装
 - **参考教程**  
-[CSDN-树莓派RASPBIAN系统安装个人经验教训](https://blog.csdn.net/piaoyangguohai1/article/details/79596859
+[树莓派RASPBIAN系统安装个人经验教训 | CSDN](https://blog.csdn.net/piaoyangguohai1/article/details/79596859
 )  
-[树莓派上安装tensorflow](http://www.360doc.com/content/19/0810/12/13145302_854037777.shtml)
+[树莓派上安装tensorflow | 360图书馆](http://www.360doc.com/content/19/0810/12/13145302_854037777.shtml)
 
 - **Raspbian**
 > Raspbian是专门针对树莓派而优化的Linux系统。  
@@ -36,6 +36,8 @@
 > 型号 4.3inch e-Paper UART Module  
 > ![微雪电纸屏](http://file.elecfans.com/web1/M00/AC/E7/pIYBAF3C01uAZR2qAADyaB2Wwz4369.jpg)
 > ![背面](http://file.elecfans.com/web1/M00/AC/E7/pIYBAF3C01yASZO7AAIKgw1mKHM545.jpg)
+> - **资料**  
+> [微雪电子4.3寸电子纸墨水屏简介 | 电子说](http://www.elecfans.com/d/1106427.html)
 #### 二哈识图（HuskyLens）
 > - **一句话**  
 > 人工智能摄像头传感器。 -- `¥329`
