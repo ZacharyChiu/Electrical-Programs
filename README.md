@@ -29,7 +29,13 @@
 > 跳出的弹窗中不要点击格式化（会烧录失败）  
 > 4. 简单配置  
 > 烧写完后，在boot分区，建立一个“内容空白”的txt文件，文件名字是 ssh，然后把后缀 .txt 删除。
-### 扩展板（传感器）
+### 扩展
+#### 微雪4.3寸电纸屏
+> 4.3寸 串口电子墨水屏模块 800×600分辨率 黑白  
+> 内置128MB NandFlash，字库和图片数据既可以存储于外部TF卡，也可导入到内部NandFlash  
+> 型号 4.3inch e-Paper UART Module  
+> ![微雪电纸屏](http://file.elecfans.com/web1/M00/AC/E7/pIYBAF3C01uAZR2qAADyaB2Wwz4369.jpg)
+> ![背面](http://file.elecfans.com/web1/M00/AC/E7/pIYBAF3C01yASZO7AAIKgw1mKHM545.jpg)
 #### 二哈识图（HuskyLens）
 > - **一句话**  
 > 人工智能摄像头传感器。 -- `¥329`
