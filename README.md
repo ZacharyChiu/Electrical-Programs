@@ -2,7 +2,7 @@
 > 本仓库记录我的电子相关项目。
 
 # 目录
-[扩展](###@扩展)
+[项目](#项目)
 
 ## 树莓派
 ### 基本操作
@@ -50,3 +50,5 @@
 > ![HuskyLens](https://bkimg.cdn.bcebos.com/pic/4d086e061d950a7b8a00f19d05d162d9f2d3c9b6?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5)  
 > - **资料**  
 > [HUSKYLENS人工智能摄像头是什么？详细介绍 | 豆瓣](https://www.douban.com/note/748920278/)
+
+# 项目
