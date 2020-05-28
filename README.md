@@ -9,6 +9,7 @@
     * [扩展](#扩展)  
         * [微雪电纸屏](#微雪电纸屏)  
         * [二哈识图](#二哈识图)  
+* [Raspbian](#Raspbian)
 * [项目](#项目)
     * [SmartClock](#SmartClock)
 
@@ -30,9 +31,13 @@
 > Raspbian是专门针对树莓派而优化的Linux系统。  
 * **安装**
 > * **所需工具**  
-> 1. SD卡格式化工具：`SDCardFormatter`
-> 2. 镜像烧录工具：`win32diskimager`
-> 3. SD卡
+> 1. SD卡格式化工具：`SDCardFormatter`  
+> ![SD格式化工具](http://img4.imgtn.bdimg.com/it/u=2206007037,16898101&fm=15&gp=0.jpg)
+> 2. 镜像烧录工具：`win32diskimager`  
+> ![镜像烧录工具](http://img5.imgtn.bdimg.com/it/u=3214485409,2704380398&fm=26&gp=0.jpg)
+> 3. SD卡  
+> 4. IP搜索软件：Advanced IP Scanner  
+> ![IP搜索软件](http://img4.imgtn.bdimg.com/it/u=1078071457,2542206237&fm=15&gp=0.jpg)  
 > * **流程**
 > 1. 获取镜像文件。（已上传至我的百度网盘）  
 > 注意将镜像文件保存在全英文路径下。  
@@ -41,9 +46,22 @@
 > 跳出的弹窗中不要点击格式化（会烧录失败）  
 > 4. 简单配置  
 > 烧写完后，在boot分区，建立一个“内容空白”的txt文件，文件名字是 ssh，然后把后缀 .txt 删除。  
-> 5. 安装系统  
-> 
-> 给树莓派连接鼠标和屏幕，
+> 5. 安装系统 
+> 插入SD卡，给树莓派接通电源。
+> 观察树莓派指示灯判断树莓派是否工作正常。  
+> 指示灯信号所代表的意思参考[树莓派LED指示灯状态的解释 | 树莓派实验室](https://shumeipai.nxez.com/2014/09/30/raspberry-pi-led-status-detail.html?variant=zh-cn)
+> 6. 配置远程桌面  
+> (1) 树莓派接鼠标、键盘、屏幕，连接wifi。  
+>> 方法一：直接使用图形界面右上角的图标连接WiFi（与windows系统类似）  
+>> ![连WiFi](http://img1.imgtn.bdimg.com/it/u=2232326196,3954081989&fm=26&gp=0.jpg)  
+>  
+>> 方法二：使用命令行
+>> 原理：通过配置文件来配置WiFi
+>> 输入如下命令:
+```
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+> (2) 
 ## 扩展
 ### 微雪电纸屏
 [返回目录](#目录)
@@ -65,6 +83,20 @@
 > * **资料**  
 > [HUSKYLENS人工智能摄像头是什么？详细介绍 | 豆瓣](https://www.douban.com/note/748920278/)
 
+# Raspbian
+Linux系统`Raspbian`的使用方法。
+## 常用命令
+### 文件管理
+* **列出文件夹内容**:`ls`
+* **创建文件夹**:`mkdir`
+* **创建文件**：`touch`
+## 应用程序
+### nano
+nano是一个字符终端的文本编辑器。  
+
+## 参考资料
+[详解linux中nano命令 | CSDN](https://blog.csdn.net/a4132447/article/details/95531532)
+[Linux简单指令学习 | CSDN](https://blog.csdn.net/qyx635804080/article/details/87625422)
 # 项目
 ## SmartClock
 [返回目录](#目录)
