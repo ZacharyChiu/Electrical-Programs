@@ -22,8 +22,8 @@
 3. 若希望通过**远程桌面**控制树莓派，需安装带桌面的镜像（with desktop）
 #### 系统安装
 * **参考教程**  
-[树莓派RASPBIAN系统安装个人经验教训 | CSDN](https://blog.csdn.net/piaoyangguohai1/article/details/79596859
-)  
+[树莓派第一次配置+装系统+远程连接+WiFi连接 | CSDN](https://blog.csdn.net/qq_28821995/article/details/83185618)
+[树莓派RASPBIAN系统安装个人经验教训 | CSDN](https://blog.csdn.net/piaoyangguohai1/article/details/79596859)  
 [树莓派上安装tensorflow | 360图书馆](http://www.360doc.com/content/19/0810/12/13145302_854037777.shtml)
 
 * **Raspbian**
@@ -40,7 +40,10 @@
 > 3. 烧写镜像  
 > 跳出的弹窗中不要点击格式化（会烧录失败）  
 > 4. 简单配置  
-> 烧写完后，在boot分区，建立一个“内容空白”的txt文件，文件名字是 ssh，然后把后缀 .txt 删除。
+> 烧写完后，在boot分区，建立一个“内容空白”的txt文件，文件名字是 ssh，然后把后缀 .txt 删除。  
+> 5. 安装系统  
+> 
+> 给树莓派连接鼠标和屏幕，
 ### 扩展
 #### 微雪电纸屏
 [返回目录](#目录)
