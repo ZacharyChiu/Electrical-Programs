@@ -56,13 +56,33 @@
 >> 方法一：直接使用图形界面右上角的图标连接WiFi（与windows系统类似）  
 >> ![连WiFi](http://img1.imgtn.bdimg.com/it/u=2232326196,3954081989&fm=26&gp=0.jpg)  
 >  
->> 方法二：使用命令行
->> 原理：通过配置文件来配置WiFi
->> 输入如下命令:
+>> 方法二：(没有屏幕)
+>> * 开启PC的热点，设置热点名称（不要包含中文）和密码
+>> * 将Raspbian系统镜像写入SD卡后，在SD卡的boot分区新建文件名为`wpa_supplicant.conf`的文件，文件中写入如下代码：  
 ```
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+country=GB
+ 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+ 
+update_config=1
+ 
+network={
+ 
+    ssid="你的Wifi名称，注意大小写"
+ 
+    psk="你的Wifi密码"
+ 
+}
 ```
-> (2) 
+>> 上述文件即WiFi配置文件，使树莓派根据它来自动连接WiFi。  
+>> * 在PC上弹出SD卡，把SD卡插到树莓派，上电。 
+>> * 此时，树莓派会连接笔记本的热点，在笔记本上可以看到树莓派的IP地址。
+>> * Win10系统，按“Win+R”调出“运行”程序，输入“mstsc”，回车后，打开了Win10的远程桌面。  
+>> 随后输入树莓派的IP地址。  
+>> 在登录到xrdp窗口中，默认选择的是Xorg（有的是sesman-Xvnc）  
+>> 用户名：pi  
+>> 密码：raspberry
+
 ## 扩展
 ### 微雪电纸屏
 [返回目录](#目录)
