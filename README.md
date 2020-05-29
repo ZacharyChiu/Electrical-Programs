@@ -23,6 +23,7 @@
 3. 若希望通过**远程桌面**控制树莓派，需安装带桌面的镜像（with desktop）
 ### 系统安装
 * **参考教程**  
+[树莓派首次启动无屏幕解决方案 |CSDN](https://blog.csdn.net/weixin_43282511/article/details/90453295)
 [树莓派第一次配置+装系统+远程连接+WiFi连接 | CSDN](https://blog.csdn.net/qq_28821995/article/details/83185618)  
 [树莓派RASPBIAN系统安装个人经验教训 | CSDN](https://blog.csdn.net/piaoyangguohai1/article/details/79596859)  
 [树莓派上安装tensorflow | 360图书馆](http://www.360doc.com/content/19/0810/12/13145302_854037777.shtml)
