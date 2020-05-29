@@ -82,6 +82,7 @@ network={
 >> 在登录到xrdp窗口中，默认选择的是Xorg（有的是sesman-Xvnc）  
 >> 用户名：pi  
 >> 密码：raspberry
+>> 参考资料：[没显示器玩树莓派全攻略 | 哔哩哔哩](https://www.bilibili.com/video/BV1t64y1M7RA)
 
 ## 扩展
 ### 微雪电纸屏
