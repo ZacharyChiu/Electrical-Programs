@@ -60,18 +60,14 @@
 >> * 开启PC的热点，设置热点名称（不要包含中文）和密码
 >> * 将Raspbian系统镜像写入SD卡后，在SD卡的boot分区新建文件名为`wpa_supplicant.conf`的文件，文件中写入如下代码：  
 ```
-country=GB
- 
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
- 
+country=CN
+ctrl_interface=DIR=/var/run/wpa_supplicant
 update_config=1
  
 network={
- 
-    ssid="你的Wifi名称，注意大小写"
- 
-    psk="你的Wifi密码"
- 
+ssid="WiFi名"
+psk="WiFi密码"
+key_mgmt=WPA-PSK
 }
 ```
 >> 上述文件即WiFi配置文件，使树莓派根据它来自动连接WiFi。  
