@@ -126,4 +126,11 @@ nano是一个字符终端的文本编辑器。
   
 ## Siri+Raspberry
 **资料**  
-[超简单的私人语音助手:用Siri让你的树莓派做任何事 | 哔哩哔哩](https://www.bilibili.com/video/BV1x5411s7gE?t=5)
+[超简单的私人语音助手:用Siri让你的树莓派做任何事 | 哔哩哔哩](https://www.bilibili.com/video/BV1x5411s7gE?t=5)  
+
+# Errors
+## 系统相关
+### 通讯连接
+#### SSH连接问题
+* 错误提示 ` WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`
+[解决](https://blog.csdn.net/weixin_40712763/article/details/82292185)
