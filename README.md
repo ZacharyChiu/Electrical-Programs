@@ -93,7 +93,8 @@ key_mgmt=WPA-PSK
 ### 二哈识图
 [返回目录](#目录)
 > * **一句话**  
-> 人工智能摄像头传感器。 -- ![](https://img.shields.io/badge/价格-¥329-red.svg)
+> 人工智能摄像头传感器。 -- 
+![](https://img.shields.io/badge/价格-%EF%BF%A5328-red.svg)
 > * **简介**  
 > 这款传感器据说是国内第一款使用K210处理器芯片的AI视觉传感器，来自于一家叫做DFRobot的公司，而且从介绍来看，集人脸识别、物体识别、物体追踪、颜色识别、巡线、二维码标签识别6大功能于一身。  
 > [B站演示视频](https://www.bilibili.com/video/BV1di4y1t7KS) <-戳我  
