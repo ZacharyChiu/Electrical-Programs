@@ -3,6 +3,7 @@
 # 创建者：Zachary
 # 测试环境：Win10
 # coding: utf-8
+# 若运行失败，尝试安装‘lxml’库
 import pygame
 from pygame.locals import *
 import datetime
